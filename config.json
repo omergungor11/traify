@@ -1,0 +1,61 @@
+{
+  "targetUrl": "http://localhost:3000",
+  "maxPages": 5,
+  "waitTime": {
+    "min": 3,
+    "max": 8
+  },
+  "scrollPage": true,
+  "proxy": {
+    "enabled": false,
+    "list": [
+      "http://203.22.223.12:80",
+      "http://203.23.104.30:80",
+      "http://203.22.223.47:80",
+      "http://154.92.9.128:80",
+      "http://154.92.9.170:80",
+      "http://154.92.9.234:80",
+      "http://154.92.9.199:80",
+      "http://154.92.9.59:80",
+      "http://154.92.9.251:80",
+      "http://154.92.9.95:80",
+      "http://154.92.9.44:80",
+      "http://154.92.9.160:80",
+      "http://154.92.9.227:80",
+      "http://104.239.72.35:80"
+    ]
+  },
+  "userAgents": [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:123.0) Gecko/20100101 Firefox/123.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3 Safari/605.1.15",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+  ],
+  "viewports": [
+    { "width": 1920, "height": 1080 },
+    { "width": 1366, "height": 768 },
+    { "width": 1440, "height": 900 },
+    { "width": 1536, "height": 864 },
+    { "width": 1280, "height": 720 }
+  ],
+  "sessions": 3,
+  "antiDetection": true,
+  "sessionDelay": {
+    "min": 2,
+    "max": 5
+  },
+  "referrers": [
+    "https://www.google.com/search?q=velis+ltd",
+    "https://www.google.com/search?q=velis+kuzey+kibris",
+    "https://www.google.com.tr/search?q=velisltd",
+    "https://www.bing.com/search?q=velis+limited",
+    "https://search.yahoo.com/search?p=velis+ltd",
+    "https://duckduckgo.com/?q=velis+ltd",
+    "https://www.facebook.com/",
+    "https://www.instagram.com/",
+    "https://www.linkedin.com/",
+    "https://t.co/redirect",
+    "https://www.reddit.com/"
+  ]
+}
