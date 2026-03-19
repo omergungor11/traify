@@ -1,5 +1,8 @@
 {
-  "targetUrl": "https://gecehayatikibris.com/",
+  "targetUrl": "https://velisltd.com/en/",
+  "startUrls": [
+    "https://velisltd.com/en/"
+  ],
   "maxPages": 5,
   "waitTime": {
     "min": 3,
@@ -54,23 +57,39 @@
     { "width": 1536, "height": 864 },
     { "width": 1280, "height": 720 }
   ],
-  "sessions": 18,
+  "sessions": 20,
   "antiDetection": true,
   "sessionDelay": {
     "min": 2,
     "max": 5
   },
+  "organicSearch": {
+    "enabled": true,
+    "percentage": 70,
+    "maxSearchPages": 3,
+    "googleDomains": ["https://www.google.com", "https://www.google.co.uk"],
+    "searchQueries": [
+      "rolling door systems north cyprus",
+      "flat sheet metal supplier lefkosa",
+      "c profile steel construction cyprus",
+      "garden fence panel prices nicosia",
+      "classic roof tile supplier cyprus",
+      "molding decoration facade cyprus",
+      "steel lintel manufacturer north cyprus",
+      "metal siding cladding prices lefkosa"
+    ],
+    "typingSpeed": { "min": 80, "max": 200 }
+  },
   "referrers": [
-    "https://www.google.com/search?q=velis+ltd",
-    "https://www.google.com/search?q=velis+kuzey+kibris",
-    "https://www.google.com.tr/search?q=velisltd",
-    "https://www.bing.com/search?q=velis+limited",
-    "https://search.yahoo.com/search?p=velis+ltd",
-    "https://duckduckgo.com/?q=velis+ltd",
-    "https://www.facebook.com/",
-    "https://www.instagram.com/",
-    "https://www.linkedin.com/",
-    "https://t.co/redirect",
-    "https://www.reddit.com/"
+    "https://www.google.com/search?q=rolling+door+systems+north+cyprus",
+    "https://www.google.com/search?q=flat+sheet+metal+supplier+lefkosa",
+    "https://www.google.co.uk/search?q=c+profile+steel+construction+cyprus",
+    "https://www.google.com/search?q=classic+roof+tile+supplier+cyprus",
+    "https://www.bing.com/search?q=molding+decoration+facade+cyprus",
+    "https://www.bing.com/search?q=metal+siding+cladding+prices+lefkosa",
+    "https://search.yahoo.com/search?p=garden+fence+panel+prices+nicosia",
+    "https://duckduckgo.com/?q=steel+lintel+manufacturer+north+cyprus",
+    "https://www.facebook.com/VelisLTD/",
+    "https://www.instagram.com/velisltd/"
   ]
 }
